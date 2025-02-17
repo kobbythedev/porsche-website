@@ -1,4 +1,4 @@
-const models = [
+[
     { name: "Taycan", variants: ["Electric"] },
     { name: "Panamera", variants: ["Hybrid", "Gasoline"] },
     { name: "Macan", variants: ["Electric", "Gasoline"] },
@@ -16,5 +16,17 @@ const mainNavItems = [
     {title: "My Porsche"}
 ]
 
+const CtaItem = [
+  {img: ,
+    title:
+  },
+  {img: ,
+    title:
+  },
+  {img: ,
+      title:
+    },[]
+]
 
-export { models, mainNavItems }
+
+export { models, mainNavItems, CtaItem }

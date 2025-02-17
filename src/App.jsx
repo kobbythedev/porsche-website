@@ -1,20 +1,22 @@
-import { Nav, RenderModel, Hero } from "./components/index";
+import { Nav } from "./components/index";
 import { SidebarProvider } from "./components/ui/sidebar";
+import { CTA } from "./components/index";
+
+import LandingPage from "./components/LandingPage";
 
 import "./App.css";
 
 function App() {
   return (
     <>
-        <div className="h-full w-full ">
-      <SidebarProvider>
-        <Nav />
-        <Hero className="z-10" />
-        <RenderModel className="-z-20" />
-      </SidebarProvider>
-    </div>
+      <div className="h-full w-full  flex-col">
+        <SidebarProvider>
+          <Nav />
+          <LandingPage />
+        </SidebarProvider>
+        <CTA />
+      </div>
     </>
-
   );
 }
 

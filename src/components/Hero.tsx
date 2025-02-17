@@ -10,10 +10,10 @@ export default function Hero() {
           <div className=" flex flex-col mb-[20px] w-[597.667px]  text-8xl ">
             <h1 className="font-bold">Keep your essence.</h1>
           </div>
-          <div
-            className="w-[fit-content] h-[50px ] border-black-600"
-          >
-            <Button variant="link">Discover the 911</Button>
+          <div className="w-[fit-content] h-[50px ] border-black-600">
+            <Button variant="link" className="">
+              Discover the 911
+            </Button>
           </div>
         </div>
       </div>
